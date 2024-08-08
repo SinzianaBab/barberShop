@@ -1,11 +1,13 @@
 import {Component} from '@angular/core';
 import {RouterModule} from '@angular/router';
-import {HomepageComponent} from "./homepage/homepage.component";
+import {HomepageComponent} from "./pages/homepage/homepage.component";
+import {ToolBarComponent} from "./components/tool-bar/tool-bar.component";
+import { PrimeNGConfig } from 'primeng/api';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, HomepageComponent],
+  imports: [RouterModule, HomepageComponent, ToolBarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
