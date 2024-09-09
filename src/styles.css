@@ -1,3 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
 @import "primeicons/primeicons.css";
-@import "primeng/resources/primeng.css";
+@import "primeng/resources/primeng.min.css";
+/*//@import "primeng/resources/themes/bootstrap4-light-blue/theme.css";*/
+@import "primeng/resources/themes/saga-green/theme.css";
+
+@import "primeflex/primeflex.min.css";
+
+p-card.extra-padding > .p-card {
+  padding: 36px;
+
+  .p-card-content {
+    padding-top: 32px;
+  }
+  }
