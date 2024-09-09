@@ -6,6 +6,7 @@ import {FooterComponent} from "./components/footer/footer.component";
 
 
 @Component({
+  //@Component is a decorator function that specifies the Angular metadata for the component.
   selector: 'app-root',
   standalone: true,
   imports: [RouterModule, HomepageComponent, ToolBarComponent, FooterComponent],
