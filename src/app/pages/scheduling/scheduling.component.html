@@ -1,1 +1,12 @@
-<p>scheduling works!</p>
+
+<p-card>
+<p-header>Make an appointment</p-header>
+<h3>Date</h3>
+<p-calendar [(ngModel)]="date" ></p-calendar>
+<h3>Time</h3>
+<p-calendar [(ngModel)]="date" [timeOnly]="true" [hourFormat]="String(12)"></p-calendar>
+<h3>Name</h3>
+<input type="text" pInputText [(ngModel)]="name"/>
+<h3>Phone Number</h3>
+<input type="text" pInputText [(ngModel)]="phoneNumber"/>
+</p-card>

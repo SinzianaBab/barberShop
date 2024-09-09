@@ -2,15 +2,16 @@ import {Component} from '@angular/core';
 import {RouterModule} from '@angular/router';
 import {HomepageComponent} from "./pages/homepage/homepage.component";
 import {ToolBarComponent} from "./components/tool-bar/tool-bar.component";
-import { PrimeNGConfig } from 'primeng/api';
+import {FooterComponent} from "./components/footer/footer.component";
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, HomepageComponent, ToolBarComponent],
+  imports: [RouterModule, HomepageComponent, ToolBarComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'BarberShop';
+  title = 'Barber Shop';
 }
