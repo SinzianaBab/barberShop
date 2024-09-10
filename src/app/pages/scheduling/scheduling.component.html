@@ -10,14 +10,3 @@
 <input type="text" pInputText [(ngModel)]="appointment.phoneNumber"/>
 </p-card>
 
-<h2>My Appointments</h2>
-<ul>
-  <li *ngFor="let appointment of appointmentList">
-    <button type="button">
-      <span >{{appointment.id}}</span>
-      <span >{{appointment.name}}</span>
-      <span >{{appointment.date}}</span>
-      <span >{{appointment.phoneNumber}}</span>
-    </button>
-  </li>
-</ul>

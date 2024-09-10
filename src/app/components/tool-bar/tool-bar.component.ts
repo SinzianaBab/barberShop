@@ -34,6 +34,11 @@ export class ToolBarComponent {
       label: 'About the Barber',
       icon: 'pi pi-info-circle',
       route: '/aboutTheBarber'
+    },
+    {
+      label: "Barber's Calendar",
+      icon: 'pi-calendar-times',
+      route: '/calendar'
     }
   ];
 

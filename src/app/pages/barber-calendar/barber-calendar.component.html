@@ -1,0 +1,10 @@
+
+<h2 class="">My Appointments</h2>
+
+  <div *ngFor="let appointment of appointmentList" >
+    <p-card class="mt-5 flex extra-padding" header="ID: {{appointment.id}}">
+    <h5 >Name: {{appointment.name}}</h5>
+    <h5 >Date: {{appointment.date}}</h5>
+    <h5 >Phone Number: {{appointment.phoneNumber}}</h5>
+    </p-card>
+  </div>
